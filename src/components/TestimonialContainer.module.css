@@ -1,0 +1,126 @@
+.backgroundIcon,
+.hearFromOur {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.backgroundIcon {
+  border-radius: var(--br-51xl);
+  width: 1199px;
+  height: 679px;
+}
+.hearFromOur {
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+}
+.heading {
+  position: relative;
+  width: 593px;
+  height: 60px;
+}
+.backgroundIcon1,
+.imageIcon {
+  position: relative;
+  width: 370px;
+  height: 339px;
+}
+.imageIcon {
+  width: 77px;
+  height: 77px;
+  object-fit: cover;
+}
+.deepakDinesh {
+  margin: 0;
+}
+.span {
+  font-size: var(--body-size);
+  color: var(--blue);
+}
+.chennaiIndia,
+.india {
+  font-size: var(--b2-size);
+  color: var(--color-lightseagreen);
+}
+.chennaiIndia {
+  margin: 0;
+}
+.deepakDineshChennaiContainer {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.asAMentor,
+.person {
+  display: flex;
+  align-items: center;
+}
+.person {
+  width: 257px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.asAMentor {
+  position: relative;
+  font-size: var(--b2-size);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  color: var(--b1);
+  width: 296px;
+}
+.content1,
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content1 {
+  width: 296px;
+  height: 286px;
+  padding: 0 0 var(--padding-35xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+  margin-top: -626px;
+}
+.div {
+  width: 370px;
+  height: 347px;
+  align-items: center;
+}
+.content,
+.testimonial1 {
+  width: 1150px;
+  display: flex;
+}
+.testimonial1 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--body-size);
+  color: var(--blue);
+  font-family: var(--body);
+}
+.content {
+  position: absolute;
+  top: 88px;
+  left: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.testimonial {
+  position: absolute;
+  top: 2862px;
+  left: 121px;
+  width: 1199px;
+  height: 679px;
+  text-align: center;
+  font-size: var(--h1-size);
+  color: var(--b1);
+  font-family: var(--h1);
+}

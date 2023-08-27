@@ -1,0 +1,227 @@
+.desktop3Child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0.5),
+    rgba(217, 217, 217, 0)
+  );
+  backdrop-filter: blur(8px);
+  width: 1439px;
+  height: 4053px;
+}
+.desktop3Item {
+  position: absolute;
+  top: 2706px;
+  left: 135px;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  width: 1214px;
+  height: 244px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 679px);
+  background-color: var(--color-whitesmoke);
+  width: 1358px;
+  height: 1931px;
+}
+.groupInner,
+.groupItem {
+  position: absolute;
+  border-radius: var(--br-base);
+}
+.groupItem {
+  top: 208.89px;
+  left: 145px;
+  width: 430px;
+  height: 522.22px;
+  object-fit: cover;
+}
+.groupInner {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+  width: 566px;
+  height: 89.87px;
+}
+.fullName {
+  position: absolute;
+  top: 26.72px;
+  left: 11px;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 96px;
+  height: 36.43px;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 223.46px;
+  left: 694px;
+  width: 566px;
+  height: 89.87px;
+  color: var(--color-gray-100);
+}
+.emailAddress {
+  position: absolute;
+  top: 26.72px;
+  left: 11px;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 135px;
+  height: 36.43px;
+}
+.groupChild2,
+.rectangleContainer {
+  position: absolute;
+  width: 566px;
+  height: 89.87px;
+}
+.rectangleContainer {
+  top: 349.77px;
+  left: 694px;
+  color: var(--color-gray-100);
+}
+.groupChild2 {
+  top: 105.66px;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+}
+.phoneNumber {
+  top: 26.72px;
+  left: 11px;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 143px;
+  height: 36.43px;
+}
+.dob,
+.groupDiv,
+.phoneNumber {
+  position: absolute;
+}
+.dob {
+  top: 132.38px;
+  left: 19px;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 40px;
+  height: 36.43px;
+}
+.groupDiv {
+  top: 470px;
+  left: 694px;
+  width: 566px;
+  height: 195.53px;
+  color: var(--color-gray-100);
+}
+.uploadPhoto {
+  position: absolute;
+  top: 759.04px;
+  left: 145px;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: inline-block;
+  width: 131px;
+  height: 36.43px;
+}
+.aboutExperience,
+.areasOfExpertise,
+.availability,
+.personalInformation {
+  position: absolute;
+  top: 99.59px;
+  left: 136px;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 597px;
+  height: 36.43px;
+}
+.aboutExperience,
+.areasOfExpertise,
+.availability {
+  top: 907.21px;
+}
+.aboutExperience,
+.availability {
+  top: 1145.24px;
+}
+.aboutExperience {
+  top: 1305px;
+}
+.groupChild3 {
+  position: absolute;
+  top: 1358px;
+  left: 136px;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  width: 1164px;
+  height: 228px;
+}
+.register {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+}
+.vectorIcon {
+  position: relative;
+  width: 19.16px;
+  height: 18.83px;
+}
+.button,
+.ourPortfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ourPortfolio {
+  width: 139.14px;
+  flex-direction: row;
+  gap: var(--gap-41xl);
+}
+.button {
+  position: absolute;
+  top: 1646px;
+  left: 549px;
+  border-radius: var(--br-lg);
+  background-color: var(--blue);
+  box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
+  flex-direction: column;
+  padding: var(--padding-7xl) var(--padding-41xl);
+  font-size: var(--b1-size);
+  color: var(--color-white);
+  font-family: var(--b1);
+}
+.rectangleParent {
+  position: absolute;
+  top: 919px;
+  left: calc(50% - 696px);
+  width: 1358px;
+  height: 1931px;
+}
+.desktop3 {
+  position: relative;
+  border-radius: 30px;
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 4053px;
+  text-align: center;
+  font-size: var(--body-size);
+  color: var(--blue);
+  font-family: var(--body);
+}

@@ -1,0 +1,139 @@
+.frameChild {
+  position: relative;
+  width: 148px;
+  height: 73px;
+  object-fit: cover;
+}
+.div,
+.div3 {
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.div3 {
+  font-size: var(--font-size-lgi);
+}
+.icons,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.icons {
+  width: 225px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-35xl);
+}
+.rectangleParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-26xl);
+  text-align: center;
+  font-size: var(--b1-size);
+  color: var(--color-darkslategray);
+  font-family: var(--font-font-awesome-5-brands);
+}
+.pages {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.aboutUs,
+.p {
+  margin: 0;
+}
+.p {
+  color: var(--color-dimgray);
+}
+.aboutUsMentorsContainer {
+  position: relative;
+  font-size: var(--body-size);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  color: var(--b1);
+}
+.pagesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.contact1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  width: 109px;
+}
+.contact1,
+.mainStreetCityState {
+  line-height: 150%;
+}
+.p1,
+.span {
+  font-size: var(--font-size-3xl);
+  line-height: 300%;
+  font-family: var(--font-jost);
+  color: var(--color-dimgray);
+}
+.p1 {
+  margin: 0;
+}
+.mainStreetCityStateContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.mainStreetCityStateContainer {
+  position: relative;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  width: 258px;
+  font-size: var(--body-size);
+  color: var(--b1);
+}
+.contact,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact {
+  width: 258px;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.frameGroup {
+  flex-direction: row;
+  gap: var(--gap-195xl);
+}
+.mentorHubAll {
+  position: relative;
+  font-size: var(--body-size);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  color: var(--color-black);
+}
+.desktop3Inner,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  gap: var(--gap-14xl);
+}
+.desktop3Inner {
+  position: absolute;
+  top: 3621px;
+  left: 0;
+  background-color: var(--color-white);
+  padding: var(--padding-17xl) var(--padding-201xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--blue);
+  font-family: var(--body);
+}

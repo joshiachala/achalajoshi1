@@ -1,0 +1,143 @@
+.exploreDiverseMentorship {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 911px;
+}
+.businessAndEntrepreneurship,
+.diveIntoThe {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 271px;
+}
+.diveIntoThe {
+  font-size: var(--b2-size);
+  font-family: var(--body);
+  color: var(--b1);
+  width: 358px;
+}
+.readMore {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+}
+.vectorIcon {
+  position: relative;
+  width: 17.15px;
+  height: 16.01px;
+}
+.button {
+  width: 120.14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+  font-size: var(--b1-size);
+  font-family: var(--b1);
+}
+.businessAndEntrepreneurshipParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.artsAndCreativity {
+  position: relative;
+  line-height: 125%;
+  width: 215px;
+}
+.artsAndCreativity,
+.button2,
+.technology {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.technology {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  width: 133px;
+}
+.button2 {
+  width: 120.14px;
+  flex-direction: row;
+  gap: var(--gap-xs);
+  font-family: var(--b1);
+}
+.frameParent,
+.technologyParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--b1-size);
+}
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-23xl);
+  font-size: var(--body-size);
+  color: var(--blue);
+}
+.vectorIcon3 {
+  position: relative;
+  width: 19.16px;
+  height: 18.83px;
+}
+.button3,
+.ourPortfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ourPortfolio {
+  width: 139.14px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.button3 {
+  border-radius: var(--br-lg);
+  background-color: var(--blue);
+  box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
+  flex-direction: column;
+  padding: var(--padding-7xl) var(--padding-41xl);
+  font-size: var(--b1-size);
+  color: var(--color-white);
+  font-family: var(--b1);
+}
+.areas,
+.exploreDiverseMentorshipAreParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.exploreDiverseMentorshipAreParent {
+  align-items: center;
+  gap: var(--gap-41xl);
+}
+.areas {
+  position: absolute;
+  top: 1699px;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-41xl) var(--padding-121xl);
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--h1-size);
+  color: var(--color-darkslategray);
+  font-family: var(--h1);
+}

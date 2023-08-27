@@ -1,0 +1,43 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+  width: 428px;
+  height: 72.87px;
+}
+.category {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.vectorIcon {
+  position: relative;
+  width: 10px;
+  height: 5px;
+}
+.categoryParent {
+  position: absolute;
+  top: 21.66px;
+  left: 24px;
+  height: 29.54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-252xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 1012.86px;
+  left: 167px;
+  width: 428px;
+  height: 72.87px;
+  text-align: center;
+  font-size: var(--body-size);
+  color: var(--color-black);
+  font-family: var(--body);
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Font+Awesome+5+Brands:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body: "Open Sans";
+  --font-jost: Jost;
+  --font-font-awesome-5-brands: "Font Awesome 5 Brands";
+  --b1: Poppins;
+  --h1: Montserrat;
+
+  /* font sizes */
+  --body-size: 20px;
+  --font-size-3xl: 22px;
+  --b1-size: 18px;
+  --b2-size: 16px;
+  --h1-size: 48px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dimgray: #4d5053;
+  --b1: #1e1e1e;
+  --blue: #00487c;
+  --color-darkslategray: #292f36;
+  --color-lightseagreen: #00a896;
+
+  /* Gaps */
+  --gap-14xl: 33px;
+  --gap-5xl: 24px;
+  --gap-26xl: 45px;
+  --gap-41xl: 60px;
+  --gap-xl: 20px;
+  --gap-xs: 12px;
+  --gap-6xl: 25px;
+  --gap-4xl: 23px;
+
+  /* Paddings */
+  --padding-41xl: 60px;
+  --padding-7xl: 26px;
+  --padding-12xl: 31px;
+  --padding-3xs: 10px;
+  --padding-35xl: 54px;
+
+  /* border radiuses */
+  --br-base: 16px;
+  --br-lg: 18px;
+}

@@ -1,0 +1,66 @@
+.backgroundIcon,
+.imageIcon {
+  position: relative;
+  width: 370px;
+  height: 339px;
+}
+.imageIcon {
+  width: 77px;
+  height: 77px;
+  object-fit: cover;
+}
+.maliniSindhu {
+  margin: 0;
+}
+.chennaiIndia {
+  margin: 0;
+  font-size: var(--b2-size);
+  color: var(--color-lightseagreen);
+}
+.maliniSindhuChennaiContainer {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 150%;
+}
+.beingAMentor,
+.person {
+  display: flex;
+  align-items: center;
+}
+.person {
+  width: 257px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.beingAMentor {
+  position: relative;
+  font-size: var(--b2-size);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  color: var(--b1);
+  width: 296px;
+}
+.content,
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content {
+  width: 296px;
+  height: 286px;
+  padding: 0 0 var(--padding-35xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+  margin-top: -626px;
+}
+.div {
+  width: 370px;
+  align-items: center;
+  text-align: left;
+  font-size: var(--body-size);
+  color: var(--blue);
+  font-family: var(--body);
+}

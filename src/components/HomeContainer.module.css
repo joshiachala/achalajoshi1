@@ -1,0 +1,108 @@
+.heroSectionChild,
+.heroSectionItem {
+  position: absolute;
+  top: 0;
+  height: 839px;
+}
+.heroSectionChild {
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+}
+.heroSectionItem {
+  left: 1043px;
+  width: 397px;
+}
+.heroSectionInner {
+  position: absolute;
+  top: 139px;
+  left: 839px;
+  border-radius: var(--br-base);
+  width: 408px;
+  height: 562px;
+  object-fit: cover;
+}
+.unlockYourPotential {
+  font-size: var(--h1-size);
+  color: var(--b1);
+}
+.mentor {
+  font-size: var(--font-size-45xl);
+  color: var(--blue);
+}
+.unlockYourPotentialAsAMen {
+  margin: 0;
+}
+.unlockYourPotentialContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.unlockYourPotentialContainer {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 646px;
+}
+.getStartedAs {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+}
+.vectorIcon {
+  position: relative;
+  width: 19.16px;
+  height: 18.83px;
+}
+.button,
+.ourPortfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ourPortfolio {
+  width: 199px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.button {
+  border-radius: var(--br-lg);
+  background-color: var(--blue);
+  box-shadow: 0 10px 20px rgba(192, 192, 192, 0.35);
+  flex-direction: column;
+  padding: var(--padding-7xl) var(--padding-41xl);
+}
+.buttonParent,
+.unlockYourPotentialAsAMenParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonParent {
+  flex-direction: row;
+  gap: var(--gap-41xl);
+  text-align: center;
+  font-size: var(--b1-size);
+  color: var(--color-white);
+  font-family: var(--b1);
+}
+.unlockYourPotentialAsAMenParent {
+  position: absolute;
+  top: 253px;
+  left: 59px;
+  flex-direction: column;
+  gap: var(--gap-43xl);
+}
+.heroSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 839px;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--b1);
+  font-family: var(--h1);
+}

@@ -1,0 +1,53 @@
+.atMentorHub,
+.weBelieveIn {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.atMentorHub {
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+  width: 420px;
+}
+.weBelieveIn {
+  font-size: var(--body-size);
+  letter-spacing: 0.01em;
+  line-height: 150%;
+  font-family: var(--body);
+  color: var(--b1);
+  width: 472px;
+}
+.content,
+.subContent {
+  width: 472px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+}
+.content {
+  gap: var(--gap-26xl);
+}
+.imageIcon {
+  position: relative;
+  width: 653px;
+  height: 700px;
+  object-fit: cover;
+}
+.aboutUs {
+  position: absolute;
+  top: 919px;
+  left: calc(50% - 600px);
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-56xl);
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--color-darkslategray);
+  font-family: var(--h1);
+}

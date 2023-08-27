@@ -1,0 +1,10 @@
+.frameParent {
+  position: relative;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-17xl) var(--padding-201xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}

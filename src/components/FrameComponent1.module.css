@@ -1,0 +1,75 @@
+.componentChild {
+  position: relative;
+  width: 113px;
+  height: 62px;
+  object-fit: cover;
+}
+.home {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-size: 16px;
+}
+.homeWrapper {
+  padding: var(--padding-3xs);
+  color: var(--blue);
+}
+.aboutUsWrapper,
+.frameGroup,
+.homeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutUsWrapper {
+  padding: var(--padding-3xs);
+}
+.frameGroup {
+  gap: var(--gap-lgi);
+}
+.iconamoonprofile {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconamoonprofileParent {
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  color: var(--color-lightseagreen);
+  position: relative;
+  left: 381px;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-328xl);
+  position: relative;
+    left: 340px;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-328xl);
+}
+.rectangleParent {
+  position: relative;
+  gap: var(--gap-323xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--b1);
+  font-family: var(--font-poppins);
+  width: 90%;
+}
